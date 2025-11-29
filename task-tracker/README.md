@@ -88,4 +88,8 @@ Enter the number of the action you want:
   ```
 
 - Each operation (create, update, delete, mark) reads the current contents of `task.json`, modifies the array in memory, and then writes the updated array back to the file.
+ 
+## Reference
+
+- Original project idea from: https://roadmap.sh/projects/task-tracker
 
