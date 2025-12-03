@@ -41,7 +41,6 @@ Below is an overview of the mini projects organized as separate folders in this 
 - **github-user-activity/**  
   A project (planned/under development) to fetch and display GitHub user activity, useful for practicing calling external APIs and handling JSON responses.  
   Reference: https://roadmap.sh/projects/github-user-activity
-
 - **github-trending-cli/**  
   CLI tool (planned) to list trending GitHub repositories. Good for practicing HTTP requests, CLI UX, and data formatting.  
   Reference: https://roadmap.sh/projects/github-trending-cli
