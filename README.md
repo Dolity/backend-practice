@@ -41,6 +41,11 @@ Below is an overview of the mini projects organized as separate folders in this 
 - **github-user-activity/**  
   A project (planned/under development) to fetch and display GitHub user activity, useful for practicing calling external APIs and handling JSON responses.  
   Reference: https://roadmap.sh/projects/github-user-activity
+
+- **expense-tracker/**  
+  Expense tracking app (non-API version) to manage personal expenses, focusing on basic data modeling and CRUD.  
+  Reference: https://roadmap.sh/projects/expense-tracker
+
 - **github-trending-cli/**  
   CLI tool (planned) to list trending GitHub repositories. Good for practicing HTTP requests, CLI UX, and data formatting.  
   Reference: https://roadmap.sh/projects/github-trending-cli
@@ -76,10 +81,6 @@ Below is an overview of the mini projects organized as separate folders in this 
 - **database-backup-utility/**  
   A utility service for backing up databases or data files. Good practice for scheduled jobs and file management.  
   Reference: https://roadmap.sh/projects/database-backup-utility
-
-- **expense-tracker/**  
-  Expense tracking app (non-API version) to manage personal expenses, focusing on basic data modeling and CRUD.  
-  Reference: https://roadmap.sh/projects/expense-tracker
 
 - **tmdb-cli-tool/**  
   CLI tool (planned) to interact with The Movie Database (TMDb) API, useful for practicing external API integration.  
