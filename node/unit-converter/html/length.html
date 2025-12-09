@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/style.css">
+  <title>Unit Converter</title>
+</head>
+<body>
+  
+  <header>
+    <h1>Unit Converter</h1>
+  </header>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="length.html">Length</a></li>
+      <li><a href="weight.html">Weight</a></li>
+      <li><a href="temperature.html">Temperature</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div>
+      <label for="length">Enter the length to convert:</label>
+      <input type="number" id="length">
+    </div>
+    <div>
+      <label for="from">Unit to convert from:</label>
+      <select name="from" id="from">
+        <option value="meter">Meter</option>
+        <option value="kilometer">Kilometer</option>
+        <option value="centimeter">Centimeter</option>
+        <option value="inch">Inch</option>
+        <option value="foot">Foot</option>
+        <option value="yard">Yard</option>
+        <option value="mile">Mile</option>
+      </select>
+    </div>
+    <div>
+      <label for="to">Unit to convert to:</label>
+      <select name="to" id="to">
+        <option value="meter">Meter</option>
+        <option value="kilometer">Kilometer</option>
+        <option value="centimeter">Centimeter</option>
+        <option value="inch">Inch</option>
+        <option value="foot">Foot</option>
+        <option value="yard">Yard</option>
+        <option value="mile">Mile</option>
+      </select>
+    </div>
+    <button type="button" id="convert">Convert</button>
+    <div id="result">
+      <p>Result: <span id="result-value"></span> <span id="result-unit"></span></p>
+    </div>
+  </main>
+
+  <script src="../index.js"></script>
+</body>
+</html>

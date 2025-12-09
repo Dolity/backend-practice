@@ -46,25 +46,25 @@ Below is an overview of the mini projects organized as separate folders in this 
   Expense tracking app (non-API version) to manage personal expenses, focusing on basic data modeling and CRUD.  
   Reference: https://roadmap.sh/projects/expense-tracker
 
-- **github-trending-cli/**  
-  CLI tool (planned) to list trending GitHub repositories. Good for practicing HTTP requests, CLI UX, and data formatting.  
-  Reference: https://roadmap.sh/projects/github-trending-cli
-
 - **number-guessing-game/**  
   A small console game to guess a number. Useful for getting comfortable with Node.js I/O and control flow.  
   Reference: https://roadmap.sh/projects/number-guessing-game
 
-- **markdown-note-taking-app/**  
-  A note-taking tool that works with Markdown files. Good for practicing file I/O and basic content organization.  
-  Reference: https://roadmap.sh/projects/markdown-note-taking-app
+- **unit-converter/**  
+  A small service or CLI app for converting between different units (e.g., length, weight). Good for learning API design and input validation.  
+  Reference: https://roadmap.sh/projects/unit-converter
 
 - **personal-blog/**  
   A simple blog backend, later extendable to a full-stack app. Useful for routing, templates/APIs, and basic CRUD on posts.  
   Reference: https://roadmap.sh/projects/personal-blog
 
-- **unit-converter/**  
-  A small service or CLI app for converting between different units (e.g., length, weight). Good for learning API design and input validation.  
-  Reference: https://roadmap.sh/projects/unit-converter
+- **github-trending-cli/**  
+  CLI tool (planned) to list trending GitHub repositories. Good for practicing HTTP requests, CLI UX, and data formatting.  
+  Reference: https://roadmap.sh/projects/github-trending-cli
+
+- **markdown-note-taking-app/**  
+  A note-taking tool that works with Markdown files. Good for practicing file I/O and basic content organization.  
+  Reference: https://roadmap.sh/projects/markdown-note-taking-app
 
 - **url-shortening-service/**  
   Backend for generating and resolving short URLs, focusing on routing, persistent storage, and redirect logic.  
