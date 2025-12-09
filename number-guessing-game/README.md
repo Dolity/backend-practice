@@ -76,6 +76,10 @@ bun index.js
 
 ---
 
+## Reference
+
+- Original project idea from: https://roadmap.sh/projects/number-guessing-game
+
 ### Notes
 
 - You can restart the game at any time by running the command again:
