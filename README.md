@@ -54,6 +54,7 @@ Each language folder contains:
 | Number Guessing Game | [`node/express/number-guessing-game`](node/express/number-guessing-game) | https://roadmap.sh/projects/number-guessing-game |
 | Weather API | [`node/express/weather-api`](node/express/weather-api) | https://roadmap.sh/projects/weather-api-wrapper-service |
 | Blogging Platform API | [`node/express/bloging-platform-api`](node/express/bloging-platform-api) | https://roadmap.sh/projects/blogging-platform-api |
+| Todo List API | [`node/express/todo-list-api`](node/express/todo-list-api) | https://roadmap.sh/projects/todo-list-api |
 
 ## Reference
 
