@@ -42,6 +42,17 @@ Each language folder contains:
 - **CRUD Lifecycle** — HTTP routing, request parsing, response formatting, middleware, database interaction.
 - **Tooling** — package managers, build tools, project structure conventions for each ecosystem.
 
+## Roadmap.sh Projects
+
+| Project | Folder | Project URL |
+|---------|--------|-------------|
+| Personal Blog | [`node/express/personal-blog`](node/express/personal-blog) | https://roadmap.sh/projects/personal-blog |
+| Task Tracker | [`node/express/task-tracker`](node/express/task-tracker) | https://roadmap.sh/projects/task-tracker |
+| Expense Tracker | [`node/express/expense-tracker`](node/express/expense-tracker) | https://roadmap.sh/projects/expense-tracker |
+| Unit Converter | [`node/express/unit-converter`](node/express/unit-converter) | https://roadmap.sh/projects/unit-converter |
+| GitHub User Activity | [`node/express/github-user-activity`](node/express/github-user-activity) | https://roadmap.sh/projects/github-user-activity |
+| Number Guessing Game | [`node/express/number-guessing-game`](node/express/number-guessing-game) | https://roadmap.sh/projects/number-guessing-game |
+
 ## Reference
 
 Projects are inspired by [roadmap.sh](https://roadmap.sh/) backend project ideas.
