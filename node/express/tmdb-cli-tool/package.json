@@ -1,0 +1,14 @@
+{
+  "name": "tmdb-cli-tool",
+  "type": "module",
+  "bin": {
+    "tmdb-app": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "dotenv": "^16.4.7"
+  }
+}
