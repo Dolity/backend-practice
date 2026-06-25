@@ -1,0 +1,14 @@
+{
+  "name": "caching-proxy",
+  "type": "module",
+  "bin": {
+    "caching-proxy": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "express": "^5.1.0"
+  }
+}
