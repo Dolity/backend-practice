@@ -53,6 +53,7 @@ Each language folder contains:
 | GitHub User Activity | [`node/express/github-user-activity`](node/express/github-user-activity) | https://roadmap.sh/projects/github-user-activity |
 | Number Guessing Game | [`node/express/number-guessing-game`](node/express/number-guessing-game) | https://roadmap.sh/projects/number-guessing-game |
 | Weather API | [`node/express/weather-api`](node/express/weather-api) | https://roadmap.sh/projects/weather-api-wrapper-service |
+| Blogging Platform API | [`node/express/bloging-platform-api`](node/express/bloging-platform-api) | https://roadmap.sh/projects/blogging-platform-api |
 
 ## Reference
 
