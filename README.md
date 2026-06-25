@@ -58,6 +58,7 @@ Each language folder contains:
 | Expense Tracker API | [`node/express/expense-tracker-api`](node/express/expense-tracker-api) | https://roadmap.sh/projects/expense-tracker-api |
 | GitHub Trending CLI | [`node/express/github-trending-cli`](node/express/github-trending-cli) | https://roadmap.sh/projects/github-trending-cli |
 | TMDB CLI Tool | [`node/express/tmdb-cli-tool`](node/express/tmdb-cli-tool) | https://roadmap.sh/projects/tmdb-cli |
+| Caching Proxy | [`node/express/caching-proxy`](node/express/caching-proxy) | https://roadmap.sh/projects/caching-server |
 
 ## Reference
 
