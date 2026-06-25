@@ -56,6 +56,7 @@ Each language folder contains:
 | Blogging Platform API | [`node/express/bloging-platform-api`](node/express/bloging-platform-api) | https://roadmap.sh/projects/blogging-platform-api |
 | Todo List API | [`node/express/todo-list-api`](node/express/todo-list-api) | https://roadmap.sh/projects/todo-list-api |
 | Expense Tracker API | [`node/express/expense-tracker-api`](node/express/expense-tracker-api) | https://roadmap.sh/projects/expense-tracker-api |
+| GitHub Trending CLI | [`node/express/github-trending-cli`](node/express/github-trending-cli) | https://roadmap.sh/projects/github-trending-cli |
 
 ## Reference
 

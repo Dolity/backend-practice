@@ -1,0 +1,13 @@
+{
+  "name": "github-trending-cli",
+  "type": "module",
+  "bin": {
+    "trending-repos": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
+}
