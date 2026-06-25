@@ -1,0 +1,6 @@
+{
+  "slug": "learning-backend-development",
+  "title": "Learning Backend Development",
+  "content": "Backend development covers routing, middleware, authentication, and data persistence.\n\nThis blog project practices server-rendered HTML, form handling, and basic session auth.",
+  "publishedAt": "2025-06-25"
+}

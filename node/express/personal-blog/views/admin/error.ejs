@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head', { pageTitle: 'Error' }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { isAdmin: true }) %>
+  <main class="container narrow">
+    <h1>Error</h1>
+    <p class="error"><%= message %></p>
+    <p><a href="/admin">&larr; Back to dashboard</a></p>
+  </main>
+</body>
+</html>

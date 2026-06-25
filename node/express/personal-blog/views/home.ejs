@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { pageTitle: 'Home' }) %>
+</head>
+<body>
+  <%- include('partials/nav', { isAdmin }) %>
+  <main class="container">
+    <h1>Articles</h1>
+    <% if (articles.length === 0) { %>
+      <p class="muted">No articles published yet.</p>
+    <% } else { %>
+      <ul class="article-list">
+        <% articles.forEach(function(article) { %>
+          <li>
+            <a href="/articles/<%= article.slug %>"><%= article.title %></a>
+            <time datetime="<%= article.publishedAt %>"><%= article.publishedAt %></time>
+          </li>
+        <% }) %>
+      </ul>
+    <% } %>
+  </main>
+</body>
+</html>

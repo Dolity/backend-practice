@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { pageTitle: article.title }) %>
+</head>
+<body>
+  <%- include('partials/nav', { isAdmin }) %>
+  <main class="container">
+    <article>
+      <h1><%= article.title %></h1>
+      <p class="meta">Published on <time datetime="<%= article.publishedAt %>"><%= article.publishedAt %></time></p>
+      <div class="content"><%= article.content %></div>
+    </article>
+    <p><a href="/">&larr; Back to home</a></p>
+  </main>
+</body>
+</html>

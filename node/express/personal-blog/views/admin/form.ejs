@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head', { pageTitle: heading }) %>
+</head>
+<body>
+  <%- include('../partials/nav', { isAdmin: true }) %>
+  <main class="container narrow">
+    <h1><%= heading %></h1>
+    <% if (typeof saved !== 'undefined' && saved) { %>
+      <p class="success">Article saved.</p>
+    <% } %>
+    <% if (typeof error !== 'undefined' && error) { %>
+      <p class="error"><%= error %></p>
+    <% } %>
+    <form method="<%= method %>" action="<%= action %>" class="form">
+      <label>
+        Title
+        <input type="text" name="title" value="<%= article ? article.title : '' %>" required>
+      </label>
+      <label>
+        Content
+        <textarea name="content" rows="12" required><%= article ? article.content : '' %></textarea>
+      </label>
+      <label>
+        Date of publication
+        <input type="date" name="publishedAt" value="<%= article ? article.publishedAt : '' %>" required>
+      </label>
+      <div class="form-actions">
+        <button type="submit">Save</button>
+        <a href="/admin">Cancel</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>

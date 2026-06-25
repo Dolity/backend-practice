@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { pageTitle: 'Login' }) %>
+</head>
+<body>
+  <%- include('partials/nav', { isAdmin: false }) %>
+  <main class="container narrow">
+    <h1>Admin Login</h1>
+    <% if (error) { %>
+      <p class="error"><%= error %></p>
+    <% } %>
+    <form method="post" action="/admin/login" class="form">
+      <label>
+        Username
+        <input type="text" name="username" required autofocus>
+      </label>
+      <label>
+        Password
+        <input type="password" name="password" required>
+      </label>
+      <button type="submit">Login</button>
+    </form>
+  </main>
+</body>
+</html>
