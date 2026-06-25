@@ -55,6 +55,7 @@ Each language folder contains:
 | Weather API | [`node/express/weather-api`](node/express/weather-api) | https://roadmap.sh/projects/weather-api-wrapper-service |
 | Blogging Platform API | [`node/express/bloging-platform-api`](node/express/bloging-platform-api) | https://roadmap.sh/projects/blogging-platform-api |
 | Todo List API | [`node/express/todo-list-api`](node/express/todo-list-api) | https://roadmap.sh/projects/todo-list-api |
+| Expense Tracker API | [`node/express/expense-tracker-api`](node/express/expense-tracker-api) | https://roadmap.sh/projects/expense-tracker-api |
 
 ## Reference
 
